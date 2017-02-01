@@ -20,6 +20,7 @@ allprojects {
 ext {
     butterKnifeVersion = '8.5.1'
     leakCanaryVersion = '1.5'
+    okhttpVersion = '3.5.0'
     retrofit2Version = '2.1.0'
 }
 

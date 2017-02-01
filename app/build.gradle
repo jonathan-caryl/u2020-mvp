@@ -123,10 +123,10 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-compiler:2.0.1'
     annotationProcessor 'org.glassfish:javax.annotation:10.0-b28'
 
-    compile 'com.squareup.okhttp3:okhttp:3.1.1'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.1.1'
+    compile "com.squareup.okhttp3:okhttp:${okhttpVersion}"
+    compile "com.squareup.okhttp3:logging-interceptor:${okhttpVersion}"
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.0.1'
+    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
     compile "com.squareup.retrofit2:retrofit:${retrofit2Version}"
     compile "com.squareup.retrofit2:converter-moshi:${retrofit2Version}"
     compile "com.squareup.retrofit2:adapter-rxjava:${retrofit2Version}"
