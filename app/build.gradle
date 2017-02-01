@@ -146,8 +146,8 @@ dependencies {
     compile 'io.reactivex:rxjava:1.2.3'
     compile 'io.reactivex:rxandroid:1.2.1'
 
-    internalCompile 'com.mattprecious.telescope:telescope:1.5.0@aar'
     compile 'com.jakewharton.threetenabp:threetenabp:1.0.4'
+    internalCompile 'com.mattprecious.telescope:telescope:2.1.0'
 
     compile 'com.f2prateek.rx.preferences:rx-preferences:1.0.2'
 
