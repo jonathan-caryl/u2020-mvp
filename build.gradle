@@ -17,6 +17,10 @@ allprojects {
     }
 }
 
+ext {
+    butterKnifeVersion = '8.5.1'
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
