@@ -136,7 +136,7 @@ dependencies {
     annotationProcessor "com.jakewharton:butterknife-compiler:${butterKnifeVersion}"
     compile 'com.jakewharton.timber:timber:4.5.1'
     compile 'com.jakewharton.byteunits:byteunits:0.9.1'
-    compile 'com.jakewharton.rxbinding:rxbinding:0.3.0'
+    compile 'com.jakewharton.rxbinding:rxbinding:1.0.0'
     internalDebugCompile 'com.jakewharton.madge:madge:1.1.4'
     internalDebugCompile 'com.jakewharton.scalpel:scalpel:1.1.2'
     internalDebugCompile 'com.jakewharton:process-phoenix:1.1.1'
