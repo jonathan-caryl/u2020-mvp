@@ -19,6 +19,8 @@ allprojects {
 
 ext {
     butterKnifeVersion = '8.5.1'
+    leakCanaryVersion = '1.5'
+    retrofit2Version = '2.1.0'
 }
 
 task clean(type: Delete) {
